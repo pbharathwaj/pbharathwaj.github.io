@@ -1,0 +1,1 @@
+pandoc --toc --citeproc  studygroup2022.tex -f latex -t html -s -o studygroup2022.html --bibliography references.bib --metadata title="Rationality of Dedekind-Zeta Values" --mathjax --number-sections 

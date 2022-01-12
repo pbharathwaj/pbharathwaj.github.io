@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Rationality of Dedekind-Zeta Values</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+    }
+    .hanging div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Rationality of Dedekind-Zeta Values</h1>
+</header>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#introduction"><span class="toc-section-number">1</span> Introduction</a>
+<ul>
+<li><a href="#dedekindzeta-function"><span class="toc-section-number">1.1</span> Dedekind–Zeta function</a></li>
+<li><a href="#motivating-questions"><span class="toc-section-number">1.2</span> Motivating questions</a></li>
+<li><a href="#rationality"><span class="toc-section-number">1.3</span> Rationality</a></li>
+</ul></li>
+<li><a href="#plan-for-the-study-group"><span class="toc-section-number">2</span> Plan for the study group</a></li>
+</ul>
+</nav>
+<h1 data-number="1" id="introduction"><span class="header-section-number">1</span> Introduction</h1>
+<h2 data-number="1.1" id="dedekindzeta-function"><span class="header-section-number">1.1</span> Dedekind–Zeta function</h2>
+<p>Let <span class="math inline">\(\mathrm{K}\)</span> be a totally real number field. Let <span class="math inline">\(\mathfrak{a}\)</span> be an ideal inside the ring of integers <span class="math inline">\(\mathrm{O}_\mathrm{K}\)</span>. Consider the Dedekind-Zeta function:</p>
+<p><span class="math display">\[\zeta_K(s) =  \sum \limits_{\mathfrak{b}}  \frac{1}{\mathrm{Norm}(\mathfrak{b})^s},\]</span> along with the associated partial Dedekind–Zeta functions: <span class="math display">\[\zeta_K(\mathfrak{a},s) =  \sum \limits_{\mathfrak{b} \sim \mathfrak{a}}  \frac{1}{\mathrm{Norm}(\mathfrak{b})^s},\]</span> The first sum is taken with respect to all the integral ideals <span class="math inline">\(\mathfrak{b}\)</span> in <span class="math inline">\(\mathrm{O}_\mathrm{K}\)</span>. The second sum is taken with respect to all the integral ideals <span class="math inline">\(\mathfrak{b}\)</span> that are in the same class as <span class="math inline">\(\mathfrak{a}\)</span> in the narrow ray class group of <span class="math inline">\(\mathrm{K}\)</span>.</p>
+<h2 data-number="1.2" id="motivating-questions"><span class="header-section-number">1.2</span> Motivating questions</h2>
+<p>Here’s an overarching and sequential list of motivating questions:</p>
+<ul>
+<li><p>(<strong>analytic continuation</strong>) Do the zeta functions <span class="math inline">\(\zeta_K(s)\)</span> and <span class="math inline">\(\zeta_K(\mathfrak{a},s)\)</span> have an analytic (or meromorphic) continuation to the entire complex plane?</p></li>
+<li><p>(<strong>rationality</strong>) Having established analytic continuation, can we conclude that the zeta values <em>at non-positive integers</em> are rational?</p></li>
+<li><p>(<strong>integrality</strong>) Having established rationality, for what primes <span class="math inline">\(p\)</span> are these zeta-values <span class="math inline">\(p\)</span>-integral?</p></li>
+<li><p>(<strong>Kummer congruences</strong>) Having established <span class="math inline">\(p\)</span>-integrality, how do we construct <em><span class="math inline">\(p\)</span>-adic <span class="math inline">\(L\)</span>-functions</em> associated to these zeta values?</p></li>
+</ul>
+<h2 data-number="1.3" id="rationality"><span class="header-section-number">1.3</span> Rationality</h2>
+<p>The main motivating question for our study group for this semester will be the question of <em>rationality</em> of these zeta values. This is known as the <em>Siegel–Klingen</em> rationality theorem. There are three celebrated proofs of this result, attributed to:</p>
+<ol>
+<li><p>Siegel–Klingen (<em>constant terms of Eisenstein series</em>),</p></li>
+<li><p>Shintani, and</p></li>
+<li><p>Sczech (<em>cohomological</em>).</p></li>
+</ol>
+<p>Our goal will be to read the methods of <strong>Shintani</strong> and <strong>Sczech</strong>. As a reminder to our eventual goal of studying <span class="math inline">\(p\)</span>-adic <span class="math inline">\(L\)</span>-functions, it is worth noting that in this set up, the constructions of the <span class="math inline">\(p\)</span>-adic <span class="math inline">\(L\)</span>-functions by</p>
+<ol>
+<li><p>Deligne–Ribet <span class="citation" data-cites="MR579702">(Deligne and Ribet 1980)</span>,</p></li>
+<li><p>Cassou–Noguès <span class="citation" data-cites="MR522119 MR524276">(Cassou-Noguès 1978, 1979)</span>, and</p></li>
+<li><p>Charollois–Dasgupta <span class="citation" data-cites="MR3272012">(Charollois and Dasgupta 2014)</span>.</p></li>
+</ol>
+<p>rely on the methods of Siegel–Klingen, Shintani and Sczech respectively.</p>
+<p><span class="math display">\[\text{Siegel--Klingen} \rightarrowtail \text{Deligne--Ribet}\]</span> <span class="math display">\[\text{Shintani} \rightarrowtail \text{Cassou--Nogu\`es}\]</span> <span class="math display">\[\text{Sczech} \rightarrowtail \text{Charollois--Dasguptas}\]</span></p>
+<p><strong>References for Shintani’s method</strong></p>
+<ol>
+<li><p>Shintani’s <a href="shintani-evaluation.pdf">article</a> <span class="citation" data-cites="MR427231">(Shintani 1976)</span></p></li>
+<li><p>Hida’s <a href="hida-elementary.pdf">book</a> <span class="citation" data-cites="MR1216135">(Hida 1993)</span></p></li>
+</ol>
+<p><strong>References for Sczech’s method</strong></p>
+<ol>
+<li><p>Sczech’s inventiones <a href="sczech-eisenstein.pdf">article</a> <span class="citation" data-cites="MR1231838">(Sczech 1993)</span>.</p></li>
+<li><p>Sczech’s Kyushu <a href="sczech-kyushu.pdf">article</a> <span class="citation" data-cites="MR1467997">(Sczech 1996)</span>.</p></li>
+</ol>
+<h1 data-number="2" id="plan-for-the-study-group"><span class="header-section-number">2</span> Plan for the study group</h1>
+<p>The study group will meet on <strong>Tuesdays, 10:30 am</strong>.</p>
+<div class="center">
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Date</th>
+<th style="text-align: left;">Speaker</th>
+<th style="text-align: left;">Section</th>
+<th style="text-align: left;">Summary</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">18 Jan</td>
+<td style="text-align: left;">Bharath</td>
+<td style="text-align: left;">Introduction</td>
+<td style="text-align: left;">Discuss the case <span class="math inline">\(K=\mathbb{Q}\)</span>.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">25 Jan</td>
+<td style="text-align: left;">Bharath</td>
+<td style="text-align: left;">Theorem 1 in <span class="citation" data-cites="MR427231">(Shintani 1976)</span> <span class="math inline">\(\implies\)</span> Siegel–Klingen rationality</td>
+<td style="text-align: left;">Pages 393-394, 404</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">1 Feb</td>
+<td style="text-align: left;">Shaunak</td>
+<td style="text-align: left;">Proposition 1 and Corollary to Proposition 1 in <span class="citation" data-cites="MR427231">(Shintani 1976)</span></td>
+<td style="text-align: left;">Pages 396-398</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">8 Feb</td>
+<td style="text-align: left;">Radhika</td>
+<td style="text-align: left;">Lemma 2 and Corollary to Lemma 2 in <span class="citation" data-cites="MR427231">(Shintani 1976)</span></td>
+<td style="text-align: left;">Pages 398-400</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">15 Feb</td>
+<td style="text-align: left;">Mihir</td>
+<td style="text-align: left;">Lemma 3 and Proposition 4 in <span class="citation" data-cites="MR427231">(Shintani 1976)</span></td>
+<td style="text-align: left;">Pages 400-402</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">22 Feb</td>
+<td style="text-align: left;">Mahesh</td>
+<td style="text-align: left;">Proposition 4 and Theorem 1 in <span class="citation" data-cites="MR427231">(Shintani 1976)</span></td>
+<td style="text-align: left;">Pages 402-404</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-MR522119" class="csl-entry" role="doc-biblioentry">
+Cassou-Noguès, Pierrette. 1978. <span>“<span><span class="math inline">\(p\)</span></span>-Adic <span><span class="math inline">\(L\)</span></span>-Functions for Totally Real Number Field.”</span> In <em>Proceedings of the <span>C</span>onference on <span><span class="math inline">\(p\)</span></span>-Adic <span>A</span>nalysis (<span>N</span>ijmegen, 1978)</em>, 7806:24–37. Report. Katholieke Univ., Nijmegen.
+</div>
+<div id="ref-MR524276" class="csl-entry" role="doc-biblioentry">
+———. 1979. <span>“Valeurs Aux Entiers Négatifs Des Fonctions Zêta Et Fonctions Zêta <span><span class="math inline">\(p\)</span></span>-Adiques.”</span> <em>Invent. Math.</em> 51 (1): 29–59.
+</div>
+<div id="ref-MR3272012" class="csl-entry" role="doc-biblioentry">
+Charollois, Pierre, and Samit Dasgupta. 2014. <span>“Integral <span>E</span>isenstein Cocycles on <span><span class="math inline">\({\bf GL}_n\)</span></span>, <span>I</span>: <span>S</span>czech’s Cocycle and <span><span class="math inline">\(p\)</span></span>-Adic <span><span class="math inline">\(L\)</span></span>-Functions of Totally Real Fields.”</span> <em>Camb. J. Math.</em> 2 (1): 49–90.
+</div>
+<div id="ref-MR579702" class="csl-entry" role="doc-biblioentry">
+Deligne, Pierre, and Kenneth A. Ribet. 1980. <span>“Values of Abelian <span><span class="math inline">\(L\)</span></span>-Functions at Negative Integers over Totally Real Fields.”</span> <em>Invent. Math.</em> 59 (3): 227–86.
+</div>
+<div id="ref-MR1216135" class="csl-entry" role="doc-biblioentry">
+Hida, Haruzo. 1993. <em>Elementary Theory of <span><span class="math inline">\(L\)</span></span>-Functions and <span>E</span>isenstein Series</em>. Vol. 26. London Mathematical Society Student Texts. Cambridge University Press, Cambridge.
+</div>
+<div id="ref-MR1231838" class="csl-entry" role="doc-biblioentry">
+Sczech, Robert. 1993. <span>“Eisenstein Group Cocycles for <span><span class="math inline">\({\rm GL}_n\)</span></span> and Values of <span><span class="math inline">\(L\)</span></span>-Functions.”</span> <em>Invent. Math.</em> 113 (3): 581–616.
+</div>
+<div id="ref-MR1467997" class="csl-entry" role="doc-biblioentry">
+———. 1996. <span>“Eisenstein Cocycles for Arithmetic Groups and Values of Zeta Functions.”</span> In, 46–48. 958.
+</div>
+<div id="ref-MR427231" class="csl-entry" role="doc-biblioentry">
+Shintani, Takuro. 1976. <span>“On Evaluation of Zeta Functions of Totally Real Algebraic Number Fields at Non-Positive Integers.”</span> <em>J. Fac. Sci. Univ. Tokyo Sect. IA Math.</em> 23 (2): 393–417.
+</div>
+</div>
+</body>
+</html>

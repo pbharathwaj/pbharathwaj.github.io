@@ -1,0 +1,90 @@
+\documentclass[11pt,a4paper,notitlepage]{article}
+\usepackage{hyperref}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{tikz}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{amssymb}
+
+\newcommand{\OO}{\mathrm{O}}
+\newcommand{\KK}{\mathrm{K}}
+\newcommand{\Norm}{\mathrm{Norm}}
+
+
+
+\begin{document}
+
+\section{Introduction}
+
+\subsection{Dedekind--Zeta function}
+Let $\KK$ be a totally real number field. Let $\mathfrak{a}$ be an ideal inside the ring of integers $\OO_\KK$. Consider the Dedekind-Zeta function: 
+
+\[\zeta_K(s) =  \sum \limits_{\mathfrak{b}}  \frac{1}{\Norm(\mathfrak{b})^s},\]
+along with the associated partial Dedekind--Zeta functions:
+\[\zeta_K(\mathfrak{a},s) =  \sum \limits_{\mathfrak{b} \sim \mathfrak{a}}  \frac{1}{\Norm(\mathfrak{b})^s},\]
+The first sum is taken with respect to all the integral ideals $\mathfrak{b}$ in $\OO_\KK$. The second sum is taken with respect to all the integral ideals $\mathfrak{b}$ that are in the same class as $\mathfrak{a}$ in the narrow ray class group of $\KK$. 
+
+\subsection{Motivating questions}
+Here's an overarching and sequential list of motivating questions: 
+\begin{itemize}
+\item (\textbf{analytic continuation}) Do the zeta functions $\zeta_K(s)$ and $\zeta_K(\mathfrak{a},s)$  have an analytic (or meromorphic) continuation to the entire complex plane? 
+\item (\textbf{rationality}) Having established analytic continuation, can we conclude that the zeta values \textit{at non-positive integers} are rational?
+\item (\textbf{integrality}) Having established rationality, for what primes $p$ are these zeta-values $p$-integral? 
+\item (\textbf{Kummer congruences}) Having established $p$-integrality, how do we construct \textit{$p$-adic $L$-functions} associated to these zeta values?
+\end{itemize}
+ 
+ \subsection{Rationality}
+ The main motivating question for our study group for this semester will be the question of \textit{rationality} of these zeta values. This is known as the \textit{Siegel--Klingen} rationality theorem. There are three celebrated proofs of this result, attributed to:
+ \begin{enumerate}
+ \item Siegel--Klingen (\textit{constant terms of Eisenstein series}),
+ \item Shintani, and
+ \item Sczech (\textit{cohomological}).
+ \end{enumerate}
+
+Our goal will be to read the methods of \textbf{Shintani} and \textbf{Sczech}. As a reminder to our eventual goal of studying $p$-adic $L$-functions, it is worth noting that in this set up, the  constructions of the $p$-adic $L$-functions by 
+\begin{enumerate}
+\item Deligne--Ribet \cite{MR579702},
+\item Cassou--Nogu\`es \cite{MR522119,MR524276}, and
+\item Charollois--Dasgupta \cite{MR3272012}.
+\end{enumerate}
+
+rely on the methods of Siegel--Klingen, Shintani and Sczech respectively. 
+
+\[\text{Siegel--Klingen} \rightarrowtail \text{Deligne--Ribet}\]
+\[\text{Shintani} \rightarrowtail \text{Cassou--Nogu\`es}\]
+\[\text{Sczech} \rightarrowtail \text{Charollois--Dasguptas}\]
+
+\textbf{References for Shintani's method}
+\begin{enumerate}
+\item Shintani's \href{shintani-evaluation.pdf}{article} \cite{MR427231}	
+\item Hida's \href{hida-elementary.pdf}{book} 	\cite{MR1216135}
+\end{enumerate}
+
+\textbf{References for Sczech's method}
+\begin{enumerate}
+\item Sczech's inventiones \href{sczech-eisenstein.pdf}{article}	 \cite{MR1231838}.
+\item Sczech's Kyushu \href{sczech-kyushu.pdf}{article} \cite{MR1467997}.
+\end{enumerate}
+
+
+\section{Plan for the study group}
+The study group will meet on \textbf{Tuesdays, 10:30 am}.
+\begin{center}
+\begin{tabularx}{\textwidth}{p{5cm}p{5cm}p{5cm}p{5cm}}
+\toprule  
+Date & Speaker & Section  & Summary  \\ 
+\midrule \\
+18 Jan & Bharath & Introduction  & Discuss the case $K=\mathbb{Q}$. \\
+25 Jan & Bharath & Theorem 1 in \cite{MR427231}  $\implies$ Siegel--Klingen rationality & Pages 393-394, 404 \\
+1 Feb & Shaunak & Proposition 1 and Corollary to Proposition 1 in \cite{MR427231} & Pages 396-398 \\
+8 Feb & Radhika & Lemma 2 and Corollary to Lemma 2 in \cite{MR427231}	& Pages 398-400 \\
+15 Feb & Mihir  & Lemma 3 and Proposition 4	 in \cite{MR427231} & Pages 400-402 \\
+22 Feb & Mahesh & Proposition 4 and Theorem 1 in  \cite{MR427231} & Pages 402-404 \\
+\bottomrule \\
+\end{tabularx}
+\end{center}
+	
+	\bibliographystyle{abbrv}
+	\bibliography{references.bib}
+\end{document}
