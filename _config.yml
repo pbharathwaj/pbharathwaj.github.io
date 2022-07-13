@@ -11,6 +11,7 @@ defaults:
       pdf: true
 
 markdown: kramdown
+mathjax: true
 theme: minima
 plugins:
   - jekyll-feed
