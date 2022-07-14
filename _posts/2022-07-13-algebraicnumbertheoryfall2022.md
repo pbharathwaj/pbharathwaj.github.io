@@ -9,7 +9,7 @@ usemathjax: true
 
 <hr>
 <p><b>Course details</b>:<br>
-Class timings: <i>Tuesdays and Thursdays, 10-11:30 am.</i><br>
+Class timings: <i>Tuesdays and Thursdays, 10-11:30 am, LH5.</i><br>
 Office hours: <i>Tuesdays, 2-3 pm.</i>
 </p>
 
