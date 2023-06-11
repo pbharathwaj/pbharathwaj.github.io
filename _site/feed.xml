@@ -1,4 +1,65 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-01-02T18:22:13+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Bharathwaj Palvannan</title><subtitle>pbharathwaj.github.io.</subtitle><entry><title type="html">Postdoc + Grad student symposium</title><link href="http://localhost:4000/2022/12/18/postdoc_gradstudent_symposium.html" rel="alternate" type="text/html" title="Postdoc + Grad student symposium" /><published>2022-12-18T00:00:00+05:30</published><updated>2022-12-18T00:00:00+05:30</updated><id>http://localhost:4000/2022/12/18/postdoc_gradstudent_symposium</id><content type="html" xml:base="http://localhost:4000/2022/12/18/postdoc_gradstudent_symposium.html">&lt;h1 id=&quot;postdoc--grad-student-symposium&quot;&gt;Postdoc + Grad student symposium&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-06-11T20:45:50+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Bharathwaj Palvannan</title><subtitle>pbharathwaj.github.io.</subtitle><entry><title type="html">I am teaching Algebra 1 (MA 212) during the Aug-Dec 2023 semester.</title><link href="http://localhost:4000/2023/06/11/algebrafall2023.html" rel="alternate" type="text/html" title="I am teaching Algebra 1 (MA 212) during the Aug-Dec 2023 semester." /><published>2023-06-11T00:00:00+05:30</published><updated>2023-06-11T00:00:00+05:30</updated><id>http://localhost:4000/2023/06/11/algebrafall2023</id><content type="html" xml:base="http://localhost:4000/2023/06/11/algebrafall2023.html">&lt;h1 id=&quot;i-am-teaching-algebra-1-ma-212-during-the-aug-dec-2023-semester&quot;&gt;I am teaching Algebra 1 (MA 212) during the Aug-Dec 2023 semester.&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;b&gt;Course details&lt;/b&gt;:&lt;br /&gt;
+Class timings: &lt;i&gt;tba.&lt;/i&gt;&lt;br /&gt;
+Office hours: &lt;i&gt;tba&lt;/i&gt; &lt;br /&gt;
+Team code: tba
+&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;
+&lt;b&gt;Brief description&lt;/b&gt;&lt;br /&gt;
+The main topics and results that we will be covering in this course are
+&lt;li&gt;&lt;i&gt;Group theorys&lt;/i&gt;&lt;/li&gt;
+&lt;li&gt; &lt;i&gt;Ring theory&lt;/i&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i&gt;Module theory&lt;/i&gt;&lt;/li&gt;
+&lt;/p&gt;
+
+&lt;p&gt;A more detailed list of topics can be found &lt;a href=&quot;http://math.iisc.ac.in/all-courses/ma212.html&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt; &lt;b&gt;Grading&lt;/b&gt;&lt;br /&gt;
+There will be a homework assignment every week (roughly). The lowest homework score is dropped. &lt;br /&gt; There will be a quiz every other week (roughly). The lowest quiz score will be dropped. 
+&lt;li&gt; Homework: 35% &lt;/li&gt;
+&lt;li&gt; Quizzes: 15% &lt;/li&gt;
+&lt;li&gt;Midterm exam: 20% &lt;/li&gt;
+&lt;li&gt;Final exam 30% &lt;/li&gt;
+&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;b&gt; Prerequisites&lt;/b&gt;&lt;br /&gt;
+UM 205 Introduction to Algebraic Structures &lt;br /&gt; &lt;br /&gt;
+Familiarity with writing proofs and some comfort level with mathematical abstraction will be expected. &lt;br /&gt;
+
+&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;b&gt;References&lt;/b&gt;&lt;br /&gt;
+The main reference textbooks for this course will be 
+
+&lt;li&gt;&lt;i&gt;Lang&lt;/i&gt;: Algebra&lt;/li&gt;
+&lt;li&gt;&lt;i&gt;Dummit and Foote&lt;/i&gt;: Abstract Algebra &lt;/li&gt;
+&lt;li&gt;&lt;i&gt;Artin&lt;/i&gt;: Algebra&lt;/li&gt;
+&lt;li&gt;&lt;i&gt;Herstein&lt;/i&gt;: Topics in algebra&lt;/li&gt;
+
+
+&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;b&gt;Miscellaneous&lt;/b&gt;:
+&lt;li&gt;There will be no backup exams. The exams will not be rescheduled. No late homework will be accepted. Instead, the lowest homework score will be dropped. &lt;/li&gt;
+&lt;li&gt;&lt;i&gt;Emails&lt;/i&gt;: If you would like to send me an email about this course, please write MA 212 in the subject. If you would like to discuss mathematics, I encourage you to come to my office hours, rather than discuss it over email.&lt;/li&gt;
+&lt;li&gt; &lt;i&gt;Discussions&lt;/i&gt;: You are encouraged to discuss homework questions and the course content on the discussion forum on MS Teams. If you have a mathematical question, I will redirect you to the discussion forum and ask you to post it here so that it may benefit everyone. &lt;/li&gt;
+&lt;li&gt;&lt;i&gt;Ethics&lt;/i&gt;: Obtaining external help (for e.g. seeking solutions on the internet, requesting
+solutions on external forums, discussing with students not in this course, etc) will be considered plagiarism. On the other hand, you are encouraged to discuss with other students in this course. Please read the &lt;a href=&quot;https://iisc.ac.in/wp-content/uploads/2016/08/iisc_students-code-of-conduct.pdf&quot;&gt;IISC student ethics guide&lt;/a&gt;. I will expect you to be ethical. &lt;/li&gt;
+
+&lt;/p&gt;
+&lt;hr /&gt;</content><author><name></name></author><summary type="html">I am teaching Algebra 1 (MA 212) during the Aug-Dec 2023 semester.</summary></entry><entry><title type="html">Postdoc + Grad student symposium</title><link href="http://localhost:4000/2022/12/18/postdoc_gradstudent_symposium.html" rel="alternate" type="text/html" title="Postdoc + Grad student symposium" /><published>2022-12-18T00:00:00+05:30</published><updated>2022-12-18T00:00:00+05:30</updated><id>http://localhost:4000/2022/12/18/postdoc_gradstudent_symposium</id><content type="html" xml:base="http://localhost:4000/2022/12/18/postdoc_gradstudent_symposium.html">&lt;h1 id=&quot;postdoc--grad-student-symposium&quot;&gt;Postdoc + Grad student symposium&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://math.iisc.ac.in/~bharali/&quot;&gt;Gautam Bharali&lt;/a&gt;, &lt;a href=&quot;http://math.iisc.ac.in/~purvigupta/&quot;&gt;Purvi Gupta&lt;/a&gt; and I organized a &lt;a href=&quot;http://math.iisc.ac.in/~purvigupta/PSS.html&quot;&gt;symposium&lt;/a&gt; for postdocs and graduate students in the Math Department at IISc.&lt;/p&gt;
 
@@ -140,4 +201,4 @@ The main references we will be following are:
 solutions on external forums, discussing with students not in this course, etc) will be considered plagiarism. On the other hand, you are encouraged to discuss with other students in this course. Please read the &lt;a href=&quot;https://iisc.ac.in/wp-content/uploads/2016/08/iisc_students-code-of-conduct.pdf&quot;&gt;IISC student ethics guide&lt;/a&gt;. I will expect you to be ethical. &lt;/li&gt;
 
 &lt;/p&gt;
-&lt;hr /&gt;</content><author><name></name></author><summary type="html">I am teaching algebraic number theory during the August-December 2022 semester.</summary></entry><entry><title type="html">I moved to Bangalore</title><link href="http://localhost:4000/2021/11/25/movingtoBangalore.md.html" rel="alternate" type="text/html" title="I moved to Bangalore" /><published>2021-11-25T00:00:00+05:30</published><updated>2021-11-25T00:00:00+05:30</updated><id>http://localhost:4000/2021/11/25/movingtoBangalore.md</id><content type="html" xml:base="http://localhost:4000/2021/11/25/movingtoBangalore.md.html">&lt;h1 id=&quot;i-moved-to-bangalore&quot;&gt;I moved to Bangalore&lt;/h1&gt;</content><author><name></name></author><summary type="html">I moved to Bangalore</summary></entry></feed>
+&lt;hr /&gt;</content><author><name></name></author><summary type="html">I am teaching algebraic number theory during the August-December 2022 semester.</summary></entry><entry><title type="html">I moved to Bangalore</title><link href="http://localhost:4000/2021/11/25/movingtoBangalore.html" rel="alternate" type="text/html" title="I moved to Bangalore" /><published>2021-11-25T00:00:00+05:30</published><updated>2021-11-25T00:00:00+05:30</updated><id>http://localhost:4000/2021/11/25/movingtoBangalore</id><content type="html" xml:base="http://localhost:4000/2021/11/25/movingtoBangalore.html">&lt;h1 id=&quot;i-moved-to-bangalore&quot;&gt;I moved to Bangalore&lt;/h1&gt;</content><author><name></name></author><summary type="html">I moved to Bangalore</summary></entry></feed>
