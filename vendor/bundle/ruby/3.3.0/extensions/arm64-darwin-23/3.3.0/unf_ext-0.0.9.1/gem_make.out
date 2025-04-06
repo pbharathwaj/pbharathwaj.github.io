@@ -1,0 +1,20 @@
+current directory: /Users/bharathwaj/Library/CloudStorage/Dropbox/Mac (3)/Documents/GitHub/pbharathwaj.github.io/vendor/bundle/ruby/3.3.0/gems/unf_ext-0.0.9.1/ext/unf_ext
+/opt/homebrew/opt/ruby/bin/ruby extconf.rb
+checking for -lstdc++... yes
+creating Makefile
+
+current directory: /Users/bharathwaj/Library/CloudStorage/Dropbox/Mac (3)/Documents/GitHub/pbharathwaj.github.io/vendor/bundle/ruby/3.3.0/gems/unf_ext-0.0.9.1/ext/unf_ext
+make DESTDIR\= sitearchdir\=./.gem.20240417-61747-656gt3 sitelibdir\=./.gem.20240417-61747-656gt3 clean
+
+current directory: /Users/bharathwaj/Library/CloudStorage/Dropbox/Mac (3)/Documents/GitHub/pbharathwaj.github.io/vendor/bundle/ruby/3.3.0/gems/unf_ext-0.0.9.1/ext/unf_ext
+make DESTDIR\= sitearchdir\=./.gem.20240417-61747-656gt3 sitelibdir\=./.gem.20240417-61747-656gt3
+compiling unf.cc
+linking shared-object unf_ext.bundle
+ld: warning: ignoring duplicate libraries: '-lc++'
+
+current directory: /Users/bharathwaj/Library/CloudStorage/Dropbox/Mac (3)/Documents/GitHub/pbharathwaj.github.io/vendor/bundle/ruby/3.3.0/gems/unf_ext-0.0.9.1/ext/unf_ext
+make DESTDIR\= sitearchdir\=./.gem.20240417-61747-656gt3 sitelibdir\=./.gem.20240417-61747-656gt3 install
+/usr/bin/install -c -m 0755 unf_ext.bundle ./.gem.20240417-61747-656gt3
+
+current directory: /Users/bharathwaj/Library/CloudStorage/Dropbox/Mac (3)/Documents/GitHub/pbharathwaj.github.io/vendor/bundle/ruby/3.3.0/gems/unf_ext-0.0.9.1/ext/unf_ext
+make DESTDIR\= sitearchdir\=./.gem.20240417-61747-656gt3 sitelibdir\=./.gem.20240417-61747-656gt3 clean

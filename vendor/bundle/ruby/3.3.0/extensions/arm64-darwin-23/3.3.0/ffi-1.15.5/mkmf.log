@@ -1,0 +1,273 @@
+DYLD_LIBRARY_PATH=.:/opt/homebrew/Cellar/ruby/3.3.0/lib pkg-config --exists libffi
+DYLD_LIBRARY_PATH=.:/opt/homebrew/Cellar/ruby/3.3.0/lib pkg-config --libs libffi |
+=> "-L/Users/bharathwaj/opt/anaconda3/envs/sage/lib -lffi\n"
+DYLD_LIBRARY_PATH=.:/opt/homebrew/Cellar/ruby/3.3.0/lib "clang -o conftest -I/opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/arm64-darwin23 -I/opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/backward -I/opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0 -I. -I/opt/homebrew/opt/libyaml/include -I/opt/homebrew/opt/openssl@3/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -Wno-error=implicit-function-declaration conftest.c  -L. -L/opt/homebrew/Cellar/ruby/3.3.0/lib -L/opt/homebrew/opt/libyaml/lib -L/opt/homebrew/opt/openssl@3/lib -L. -fstack-protector-strong -L/opt/homebrew/opt/libyaml/lib -L/opt/homebrew/opt/openssl@3/lib  -arch arm64   -lruby.3.3  -lpthread  "
+In file included from conftest.c:1:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby.h:38:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/ruby.h:25:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/defines.h:73:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/backward/2/attributes.h:43:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/attr/pure.h:25:
+/opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/assert.h:132:1: error: '__declspec' attributes are not enabled; use '-fdeclspec' or '-fms-extensions' to enable support for __declspec attributes
+RBIMPL_ATTR_NORETURN()
+^
+/opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/attr/noreturn.h:29:33: note: expanded from macro 'RBIMPL_ATTR_NORETURN'
+# define RBIMPL_ATTR_NORETURN() __declspec(noreturn)
+                                ^
+In file included from conftest.c:1:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby.h:38:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/ruby.h:27:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/anyargs.h:77:
+/opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/intern/vm.h:379:1: error: '__declspec' attributes are not enabled; use '-fdeclspec' or '-fms-extensions' to enable support for __declspec attributes
+RBIMPL_ATTR_NORETURN()
+^
+/opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/attr/noreturn.h:29:33: note: expanded from macro 'RBIMPL_ATTR_NORETURN'
+# define RBIMPL_ATTR_NORETURN() __declspec(noreturn)
+                                ^
+In file included from conftest.c:1:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby.h:38:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/ruby.h:28:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/arithmetic.h:24:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/arithmetic/char.h:23:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/arithmetic/int.h:26:
+/opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/arithmetic/long.h:70:1: error: '__declspec' attributes are not enabled; use '-fdeclspec' or '-fms-extensions' to enable support for __declspec attributes
+RBIMPL_ATTR_NORETURN()
+^
+/opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/attr/noreturn.h:29:33: note: expanded from macro 'RBIMPL_ATTR_NORETURN'
+# define RBIMPL_ATTR_NORETURN() __declspec(noreturn)
+                                ^
+In file included from conftest.c:1:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby.h:38:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/ruby.h:28:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/arithmetic.h:24:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/arithmetic/char.h:29:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/core/rstring.h:28:
+/opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/core/rbasic.h:63:14: error: expected parameter declarator
+RUBY_ALIGNAS(SIZEOF_VALUE)
+             ^
+/opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/value.h:106:23: note: expanded from macro 'SIZEOF_VALUE'
+# define SIZEOF_VALUE SIZEOF_LONG
+                      ^
+/opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/arm64-darwin23/ruby/config.h:82:21: note: expanded from macro 'SIZEOF_LONG'
+#define SIZEOF_LONG 8
+                    ^
+In file included from conftest.c:1:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby.h:38:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/ruby.h:28:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/arithmetic.h:24:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/arithmetic/char.h:29:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/core/rstring.h:28:
+/opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/core/rbasic.h:63:14: error: expected ')'
+/opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/value.h:106:23: note: expanded from macro 'SIZEOF_VALUE'
+# define SIZEOF_VALUE SIZEOF_LONG
+                      ^
+/opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/arm64-darwin23/ruby/config.h:82:21: note: expanded from macro 'SIZEOF_LONG'
+#define SIZEOF_LONG 8
+                    ^
+/opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/core/rbasic.h:63:1: note: to match this '('
+RUBY_ALIGNAS(SIZEOF_VALUE)
+^
+/opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/backward/2/stdalign.h:27:22: note: expanded from macro 'RUBY_ALIGNAS'
+#define RUBY_ALIGNAS RBIMPL_ALIGNAS /**< @copydoc RBIMPL_ALIGNAS */
+                     ^
+/opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/stdalign.h:66:44: note: expanded from macro 'RBIMPL_ALIGNAS'
+# define RBIMPL_ALIGNAS(_) __declspec(align(_))
+                                           ^
+In file included from conftest.c:1:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby.h:38:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/ruby.h:28:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/arithmetic.h:24:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/arithmetic/char.h:29:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/core/rstring.h:28:
+/opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/core/rbasic.h:64:1: error: expected function body after function declarator
+RBasic {
+^
+/opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/core/rbasic.h:155:23: error: incomplete definition of type 'struct RBasic'
+    return RBASIC(obj)->klass;
+           ~~~~~~~~~~~^
+/opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/core/rbasic.h:155:12: note: forward declaration of 'struct RBasic'
+    return RBASIC(obj)->klass;
+           ^
+/opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/core/rbasic.h:40:57: note: expanded from macro 'RBASIC'
+#define RBASIC(obj)                 RBIMPL_CAST((struct RBasic *)(obj))
+                                                        ^
+In file included from conftest.c:1:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby.h:38:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/ruby.h:28:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/arithmetic.h:24:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/arithmetic/char.h:29:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/core/rstring.h:30:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/fl_type.h:38:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/value_type.h:33:
+/opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/error.h:98:1: error: '__declspec' attributes are not enabled; use '-fdeclspec' or '-fms-extensions' to enable support for __declspec attributes
+RBIMPL_ATTR_NORETURN()
+^
+/opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/attr/noreturn.h:29:33: note: expanded from macro 'RBIMPL_ATTR_NORETURN'
+# define RBIMPL_ATTR_NORETURN() __declspec(noreturn)
+                                ^
+In file included from conftest.c:1:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby.h:38:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/ruby.h:28:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/arithmetic.h:24:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/arithmetic/char.h:29:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/core/rstring.h:30:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/fl_type.h:38:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/value_type.h:33:
+/opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/error.h:115:1: error: '__declspec' attributes are not enabled; use '-fdeclspec' or '-fms-extensions' to enable support for __declspec attributes
+RBIMPL_ATTR_NORETURN()
+^
+/opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/attr/noreturn.h:29:33: note: expanded from macro 'RBIMPL_ATTR_NORETURN'
+# define RBIMPL_ATTR_NORETURN() __declspec(noreturn)
+                                ^
+In file included from conftest.c:1:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby.h:38:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/ruby.h:28:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/arithmetic.h:24:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/arithmetic/char.h:29:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/core/rstring.h:30:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/fl_type.h:38:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/value_type.h:33:
+/opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/error.h:130:1: error: '__declspec' attributes are not enabled; use '-fdeclspec' or '-fms-extensions' to enable support for __declspec attributes
+RBIMPL_ATTR_NORETURN()
+^
+/opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/attr/noreturn.h:29:33: note: expanded from macro 'RBIMPL_ATTR_NORETURN'
+# define RBIMPL_ATTR_NORETURN() __declspec(noreturn)
+                                ^
+In file included from conftest.c:1:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby.h:38:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/ruby.h:28:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/arithmetic.h:24:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/arithmetic/char.h:29:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/core/rstring.h:30:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/fl_type.h:38:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/value_type.h:33:
+/opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/error.h:151:1: error: '__declspec' attributes are not enabled; use '-fdeclspec' or '-fms-extensions' to enable support for __declspec attributes
+RBIMPL_ATTR_NORETURN()
+^
+/opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/attr/noreturn.h:29:33: note: expanded from macro 'RBIMPL_ATTR_NORETURN'
+# define RBIMPL_ATTR_NORETURN() __declspec(noreturn)
+                                ^
+In file included from conftest.c:1:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby.h:38:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/ruby.h:28:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/arithmetic.h:24:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/arithmetic/char.h:29:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/core/rstring.h:30:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/fl_type.h:38:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/value_type.h:33:
+/opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/error.h:163:1: error: '__declspec' attributes are not enabled; use '-fdeclspec' or '-fms-extensions' to enable support for __declspec attributes
+RBIMPL_ATTR_NORETURN()
+^
+/opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/attr/noreturn.h:29:33: note: expanded from macro 'RBIMPL_ATTR_NORETURN'
+# define RBIMPL_ATTR_NORETURN() __declspec(noreturn)
+                                ^
+In file included from conftest.c:1:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby.h:38:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/ruby.h:28:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/arithmetic.h:24:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/arithmetic/char.h:29:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/core/rstring.h:30:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/fl_type.h:38:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/value_type.h:33:
+/opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/error.h:188:1: error: '__declspec' attributes are not enabled; use '-fdeclspec' or '-fms-extensions' to enable support for __declspec attributes
+RBIMPL_ATTR_NORETURN()
+^
+/opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/attr/noreturn.h:29:33: note: expanded from macro 'RBIMPL_ATTR_NORETURN'
+# define RBIMPL_ATTR_NORETURN() __declspec(noreturn)
+                                ^
+In file included from conftest.c:1:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby.h:38:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/ruby.h:28:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/arithmetic.h:24:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/arithmetic/char.h:29:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/core/rstring.h:30:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/fl_type.h:38:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/value_type.h:33:
+/opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/error.h:199:1: error: '__declspec' attributes are not enabled; use '-fdeclspec' or '-fms-extensions' to enable support for __declspec attributes
+RBIMPL_ATTR_NORETURN()
+^
+/opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/attr/noreturn.h:29:33: note: expanded from macro 'RBIMPL_ATTR_NORETURN'
+# define RBIMPL_ATTR_NORETURN() __declspec(noreturn)
+                                ^
+In file included from conftest.c:1:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby.h:38:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/ruby.h:28:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/arithmetic.h:24:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/arithmetic/char.h:29:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/core/rstring.h:30:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/fl_type.h:38:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/value_type.h:33:
+/opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/error.h:216:1: error: '__declspec' attributes are not enabled; use '-fdeclspec' or '-fms-extensions' to enable support for __declspec attributes
+RBIMPL_ATTR_NORETURN()
+^
+/opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/attr/noreturn.h:29:33: note: expanded from macro 'RBIMPL_ATTR_NORETURN'
+# define RBIMPL_ATTR_NORETURN() __declspec(noreturn)
+                                ^
+In file included from conftest.c:1:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby.h:38:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/ruby.h:28:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/arithmetic.h:24:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/arithmetic/char.h:29:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/core/rstring.h:30:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/fl_type.h:38:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/value_type.h:33:
+/opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/error.h:228:1: error: '__declspec' attributes are not enabled; use '-fdeclspec' or '-fms-extensions' to enable support for __declspec attributes
+RBIMPL_ATTR_NORETURN()
+^
+/opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/attr/noreturn.h:29:33: note: expanded from macro 'RBIMPL_ATTR_NORETURN'
+# define RBIMPL_ATTR_NORETURN() __declspec(noreturn)
+                                ^
+In file included from conftest.c:1:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby.h:38:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/ruby.h:28:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/arithmetic.h:24:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/arithmetic/char.h:29:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/core/rstring.h:30:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/fl_type.h:38:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/value_type.h:33:
+/opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/error.h:248:1: error: '__declspec' attributes are not enabled; use '-fdeclspec' or '-fms-extensions' to enable support for __declspec attributes
+RBIMPL_ATTR_NORETURN()
+^
+/opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/attr/noreturn.h:29:33: note: expanded from macro 'RBIMPL_ATTR_NORETURN'
+# define RBIMPL_ATTR_NORETURN() __declspec(noreturn)
+                                ^
+In file included from conftest.c:1:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby.h:38:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/ruby.h:28:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/arithmetic.h:24:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/arithmetic/char.h:29:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/core/rstring.h:30:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/fl_type.h:38:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/value_type.h:33:
+/opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/error.h:260:1: error: '__declspec' attributes are not enabled; use '-fdeclspec' or '-fms-extensions' to enable support for __declspec attributes
+RBIMPL_ATTR_NORETURN()
+^
+/opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/attr/noreturn.h:29:33: note: expanded from macro 'RBIMPL_ATTR_NORETURN'
+# define RBIMPL_ATTR_NORETURN() __declspec(noreturn)
+                                ^
+In file included from conftest.c:1:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby.h:38:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/ruby.h:28:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/arithmetic.h:24:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/arithmetic/char.h:29:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/core/rstring.h:30:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/fl_type.h:38:
+In file included from /opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/value_type.h:33:
+/opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/error.h:299:1: error: '__declspec' attributes are not enabled; use '-fdeclspec' or '-fms-extensions' to enable support for __declspec attributes
+RBIMPL_ATTR_NORETURN()
+^
+/opt/homebrew/Cellar/ruby/3.3.0/include/ruby-3.3.0/ruby/internal/attr/noreturn.h:29:33: note: expanded from macro 'RBIMPL_ATTR_NORETURN'
+# define RBIMPL_ATTR_NORETURN() __declspec(noreturn)
+                                ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main(int argc, char **argv)
+4: {
+5:   return !!argv[argc];
+6: }
+/* end */
+

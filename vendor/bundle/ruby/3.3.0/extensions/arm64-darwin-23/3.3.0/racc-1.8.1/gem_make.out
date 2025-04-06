@@ -1,0 +1,18 @@
+current directory: /Users/bharathwaj/Library/CloudStorage/Dropbox/Mac (3)/Documents/GitHub/pbharathwaj.github.io/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+/opt/homebrew/opt/ruby/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/bharathwaj/Library/CloudStorage/Dropbox/Mac (3)/Documents/GitHub/pbharathwaj.github.io/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250406-16927-6b6tbh sitelibdir\=./.gem.20250406-16927-6b6tbh clean
+
+current directory: /Users/bharathwaj/Library/CloudStorage/Dropbox/Mac (3)/Documents/GitHub/pbharathwaj.github.io/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250406-16927-6b6tbh sitelibdir\=./.gem.20250406-16927-6b6tbh
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+
+current directory: /Users/bharathwaj/Library/CloudStorage/Dropbox/Mac (3)/Documents/GitHub/pbharathwaj.github.io/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250406-16927-6b6tbh sitelibdir\=./.gem.20250406-16927-6b6tbh install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20250406-16927-6b6tbh/racc
+
+current directory: /Users/bharathwaj/Library/CloudStorage/Dropbox/Mac (3)/Documents/GitHub/pbharathwaj.github.io/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250406-16927-6b6tbh sitelibdir\=./.gem.20250406-16927-6b6tbh clean

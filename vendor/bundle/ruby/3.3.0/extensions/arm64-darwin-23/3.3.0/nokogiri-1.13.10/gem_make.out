@@ -1,0 +1,91 @@
+current directory: /Users/bharathwaj/Library/CloudStorage/Dropbox/Mac (3)/Documents/GitHub/pbharathwaj.github.io/vendor/bundle/ruby/3.3.0/gems/nokogiri-1.13.10/ext/nokogiri
+/opt/homebrew/opt/ruby/bin/ruby extconf.rb
+checking for whether -march=core2 is accepted as CFLAGS... no
+checking for whether -mtune=haswell is accepted as CFLAGS... no
+checking for whether -mssse3 is accepted as CFLAGS... no
+checking for whether -ftree-vectorize is accepted as CFLAGS... no
+checking for whether -fPIC is accepted as CFLAGS... no
+checking for whether -fPIE is accepted as CFLAGS... no
+checking for whether -fstack-protector-strong is accepted as CFLAGS... no
+checking for whether -O2 is accepted as CFLAGS... no
+checking for whether -pipe is accepted as CFLAGS... no
+checking for whether -isystem is accepted as CFLAGS... no
+checking for whether /Users/bharathwaj/opt/anaconda3/envs/sage/include is accepted as CFLAGS... no
+checking for whether -D_FORTIFY_SOURCE=2 is accepted as CPPFLAGS... no
+checking for whether -isystem is accepted as CPPFLAGS... no
+checking for whether /Users/bharathwaj/opt/anaconda3/envs/sage/include is accepted as CPPFLAGS... no
+checking for whether -Wl,-pie is accepted as LDFLAGS... yes
+checking for whether -Wl,-headerpad_max_install_names is accepted as LDFLAGS... yes
+checking for whether -Wl,-dead_strip_dylibs is accepted as LDFLAGS... yes
+checking for whether -Wl,-rpath,/Users/bharathwaj/opt/anaconda3/envs/sage/lib is accepted as LDFLAGS... yes
+checking for whether -L/Users/bharathwaj/opt/anaconda3/envs/sage/lib is accepted as LDFLAGS... yes
+checking for whether -std=c99 is accepted as CFLAGS... no
+checking for whether -Wno-declaration-after-statement is accepted as CFLAGS... no
+checking for whether -g is accepted as CFLAGS... no
+checking for whether -Winline is accepted as CFLAGS... no
+checking for whether -Wmissing-noreturn is accepted as CFLAGS... no
+checking for whether -Wno-error=unused-command-line-argument-hard-error-in-future is accepted as CFLAGS... no
+Building nokogiri using packaged libraries.
+Static linking is enabled.
+Cross build is disabled.
+checking for iconv.h... yes
+Using mini_portile version 2.8.6
+checking for iconv using --with-opt-* flags... no
+checking for iconv... no
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--with-opt-include=${opt-dir}/include
+	--without-opt-include
+	--with-opt-lib=${opt-dir}/lib
+	--without-opt-lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/opt/homebrew/Cellar/ruby/3.3.0/bin/$(RUBY_BASE_NAME)
+	--help
+	--clean
+	--prevent-strip
+	--enable-system-libraries
+	--disable-system-libraries
+	--use-system-libraries
+	--enable-system-libraries
+	--disable-system-libraries
+	--use-system-libraries
+	--enable-static
+	--disable-static
+	--enable-cross-build
+	--disable-cross-build
+	--with-zlib-dir
+	--without-zlib-dir
+	--with-zlib-include=${zlib-dir}/include
+	--without-zlib-include
+	--with-zlib-lib=${zlib-dir}/lib
+	--without-zlib-lib
+	--with-iconv-dir
+	--without-iconv-dir
+	--with-iconv-include=${iconv-dir}/include
+	--without-iconv-include
+	--with-iconv-lib=${iconv-dir}/lib
+	--without-iconv-lib
+	--with-xml2-source-dir
+extconf.rb:266:in `have_package_configuration': wrong number of arguments (given 1, expected 0; required keywords: lib, func, headers) (ArgumentError)
+	from extconf.rb:403:in `block in iconv_configure_flags'
+	from extconf.rb:294:in `preserving_globals'
+	from extconf.rb:403:in `iconv_configure_flags'
+	from extconf.rb:804:in `block in <main>'
+	from extconf.rb:439:in `block in process_recipe'
+	from <internal:kernel>:90:in `tap'
+	from extconf.rb:428:in `process_recipe'
+	from extconf.rb:782:in `<main>'
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /Users/bharathwaj/Library/CloudStorage/Dropbox/Mac (3)/Documents/GitHub/pbharathwaj.github.io/vendor/bundle/ruby/3.3.0/extensions/arm64-darwin-23/3.3.0/nokogiri-1.13.10/mkmf.log
+
+extconf failed, exit code 1

@@ -1,0 +1,22 @@
+current directory: /Users/bharathwaj/Library/CloudStorage/Dropbox/Mac (3)/Documents/GitHub/pbharathwaj.github.io/vendor/bundle/ruby/2.6.0/gems/racc-1.7.1/ext/racc/cparse
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby extconf.rb
+checking for rb_block_call()... yes
+checking for rb_ary_subseq()... yes
+creating Makefile
+
+current directory: /Users/bharathwaj/Library/CloudStorage/Dropbox/Mac (3)/Documents/GitHub/pbharathwaj.github.io/vendor/bundle/ruby/2.6.0/gems/racc-1.7.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20231212-63155-1rlr099 sitelibdir\=./.gem.20231212-63155-1rlr099 clean
+
+current directory: /Users/bharathwaj/Library/CloudStorage/Dropbox/Mac (3)/Documents/GitHub/pbharathwaj.github.io/vendor/bundle/ruby/2.6.0/gems/racc-1.7.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20231212-63155-1rlr099 sitelibdir\=./.gem.20231212-63155-1rlr099
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+ld: warning: -multiply_defined is obsolete
+ld: warning: search path '/AppleInternal/Library/BuildRoots/98ed8ad3-3356-11ee-9b53-aead88ae2785/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.Internal.sdk/usr/local/lib' not found
+
+current directory: /Users/bharathwaj/Library/CloudStorage/Dropbox/Mac (3)/Documents/GitHub/pbharathwaj.github.io/vendor/bundle/ruby/2.6.0/gems/racc-1.7.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20231212-63155-1rlr099 sitelibdir\=./.gem.20231212-63155-1rlr099 install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20231212-63155-1rlr099/racc
+
+current directory: /Users/bharathwaj/Library/CloudStorage/Dropbox/Mac (3)/Documents/GitHub/pbharathwaj.github.io/vendor/bundle/ruby/2.6.0/gems/racc-1.7.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20231212-63155-1rlr099 sitelibdir\=./.gem.20231212-63155-1rlr099 clean

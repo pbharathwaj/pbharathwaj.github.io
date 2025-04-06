@@ -1,0 +1,20 @@
+current directory: /Users/bharathwaj/Library/CloudStorage/Dropbox/Mac (3)/Documents/GitHub/pbharathwaj.github.io/vendor/bundle/ruby/3.3.0/gems/racc-1.7.3/ext/racc/cparse
+/opt/homebrew/opt/ruby/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/bharathwaj/Library/CloudStorage/Dropbox/Mac (3)/Documents/GitHub/pbharathwaj.github.io/vendor/bundle/ruby/3.3.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240417-61747-v70sca sitelibdir\=./.gem.20240417-61747-v70sca clean
+
+current directory: /Users/bharathwaj/Library/CloudStorage/Dropbox/Mac (3)/Documents/GitHub/pbharathwaj.github.io/vendor/bundle/ruby/3.3.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240417-61747-v70sca sitelibdir\=./.gem.20240417-61747-v70sca
+compiling cparse.c
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+1 warning generated.
+linking shared-object racc/cparse.bundle
+
+current directory: /Users/bharathwaj/Library/CloudStorage/Dropbox/Mac (3)/Documents/GitHub/pbharathwaj.github.io/vendor/bundle/ruby/3.3.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240417-61747-v70sca sitelibdir\=./.gem.20240417-61747-v70sca install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20240417-61747-v70sca/racc
+
+current directory: /Users/bharathwaj/Library/CloudStorage/Dropbox/Mac (3)/Documents/GitHub/pbharathwaj.github.io/vendor/bundle/ruby/3.3.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240417-61747-v70sca sitelibdir\=./.gem.20240417-61747-v70sca clean
