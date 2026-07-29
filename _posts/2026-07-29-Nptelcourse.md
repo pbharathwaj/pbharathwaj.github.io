@@ -23,7 +23,7 @@ title: NPTEL course on Algebraic Number Theory
 
 <p>Here's the course outline:
 
-<ol> 
+<ul> 
 <li> Week 1: Integral extensions and going up theorems </li>
 <ul> 
 <li> <a href="https://youtu.be/EGhewzgCexc?si=m3k0BKdUbLZcthMC">Lecture 1</a>: Integral elements </li>
@@ -36,7 +36,7 @@ title: NPTEL course on Algebraic Number Theory
 
 <br>
 
-<li> Valuation Rings </li>
+<li> Week 2: Valuation Rings </li>
 <ul>
 <li> <a href="https://youtu.be/_-8iY0od8oI?si=J1r9Q8JLsnodGuQV">Lecture 7</a>: Local rings and localizations</li>
 <li> <a href="https://youtu.be/_J8kSO1OU0Y?si=Lb0t1i4IRsI1O1fw">Lecture 8</a>: V-rings and V*-rings </li>
@@ -48,14 +48,14 @@ title: NPTEL course on Algebraic Number Theory
 </ul>
 <br>
 
-<li> Discrete Valuation Rings </li>
+<li> Week 3: Discrete Valuation Rings </li>
 <ul>
 <li> <a href="https://youtu.be/MhWGd90l6aQ?si=PnwY8u4q3_Gt7Nkd">Lecture 14</a>: Discrete Valuation Rings - Part 1</li>
 <li> <a href="https://www.youtube.com/watch?v=qAwBtTPqKuQ">Lecture 15:</a> Discrete Valuation Rings - Part 2 </li>
 <li> <a href="https://youtu.be/imMKjWGcq_8?si=K5gZpXV_jZRHPsCz"> Lecture 16</a>: Classification of DVRs inside Z and Fp[t]</li>
 </ul><br>
 
-<li> $p$-adic integers and Hensel's lemma </li>
+<li> Week 4: $p$-adic integers and Hensel's lemma </li>
 <ul>
 <li><a href="https://youtu.be/UeXG7FzaXro?si=n7KNYsncFwosXHSJ">Lecture 17</a>: p-adic absolute values</li>
 <li><a href="https://youtu.be/xXVOvpwzTB0?si=g6ezqPnjpiV6q7qT">Lecture 18</a>: Q as a topological field</li>
@@ -67,11 +67,11 @@ title: NPTEL course on Algebraic Number Theory
 </ul>
 <br>
 
-<li> Dedekind domains </li> 
-<li> Galois extensions </li> 
-<li> Class groups </li> 
-<li> Finiteness of Class groups  </li> 
-</ol>
+<li> Week 5: Dedekind domains </li> 
+<li> Week 6: Galois extensions </li> 
+<li> Week 7: Class groups </li> 
+<li> Week 8: Finiteness of Class groups  </li> 
+</ul>
 </p>
 
  

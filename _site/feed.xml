@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-07-29T12:07:15+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Bharathwaj Palvannan</title><subtitle>pbharathwaj.github.io.</subtitle><entry><title type="html">NPTEL course on Algebraic Number Theory</title><link href="http://localhost:4000/2026/07/29/Nptelcourse.html" rel="alternate" type="text/html" title="NPTEL course on Algebraic Number Theory" /><published>2026-07-29T00:00:00+05:30</published><updated>2026-07-29T00:00:00+05:30</updated><id>http://localhost:4000/2026/07/29/Nptelcourse</id><content type="html" xml:base="http://localhost:4000/2026/07/29/Nptelcourse.html"><![CDATA[<h1 id="nptel-course-on-algebraic-number-theory">NPTEL course on Algebraic Number Theory</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-07-29T12:09:20+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Bharathwaj Palvannan</title><subtitle>pbharathwaj.github.io.</subtitle><entry><title type="html">NPTEL course on Algebraic Number Theory</title><link href="http://localhost:4000/2026/07/29/Nptelcourse.html" rel="alternate" type="text/html" title="NPTEL course on Algebraic Number Theory" /><published>2026-07-29T00:00:00+05:30</published><updated>2026-07-29T00:00:00+05:30</updated><id>http://localhost:4000/2026/07/29/Nptelcourse</id><content type="html" xml:base="http://localhost:4000/2026/07/29/Nptelcourse.html"><![CDATA[<h1 id="nptel-course-on-algebraic-number-theory">NPTEL course on Algebraic Number Theory</h1>
 
 <p>I am teaching an eight week <a href="https://nptel.ac.in/courses/111108003">NPTEL course</a> on Algebraic Number Theory, with a focus on the commutative algebraic aspects of it during the July-December 2026 semester. It is targeted at Master's students in India, interested in pursuing research in Number theory. It is titled <i>"Commutative Algebra with a viewpoint towards Algebraic Number Theory"</i> and is a deliberate nod to the title of David Eisenbud's <a href="https://link.springer.com/book/10.1007/978-1-4612-5350-1">book</a>. </p>
 
@@ -17,7 +17,7 @@
 
 <p>Here's the course outline:
 
-<ol> 
+<ul> 
 <li> Week 1: Integral extensions and going up theorems </li>
 <ul> 
 <li> <a href="https://youtu.be/EGhewzgCexc?si=m3k0BKdUbLZcthMC">Lecture 1</a>: Integral elements </li>
@@ -30,7 +30,7 @@
 
 <br />
 
-<li> Valuation Rings </li>
+<li> Week 2: Valuation Rings </li>
 <ul>
 <li> <a href="https://youtu.be/_-8iY0od8oI?si=J1r9Q8JLsnodGuQV">Lecture 7</a>: Local rings and localizations</li>
 <li> <a href="https://youtu.be/_J8kSO1OU0Y?si=Lb0t1i4IRsI1O1fw">Lecture 8</a>: V-rings and V*-rings </li>
@@ -42,14 +42,14 @@
 </ul>
 <br />
 
-<li> Discrete Valuation Rings </li>
+<li> Week 3: Discrete Valuation Rings </li>
 <ul>
 <li> <a href="https://youtu.be/MhWGd90l6aQ?si=PnwY8u4q3_Gt7Nkd">Lecture 14</a>: Discrete Valuation Rings - Part 1</li>
 <li> <a href="https://www.youtube.com/watch?v=qAwBtTPqKuQ">Lecture 15:</a> Discrete Valuation Rings - Part 2 </li>
 <li> <a href="https://youtu.be/imMKjWGcq_8?si=K5gZpXV_jZRHPsCz"> Lecture 16</a>: Classification of DVRs inside Z and Fp[t]</li>
 </ul><br />
 
-<li> $p$-adic integers and Hensel's lemma </li>
+<li> Week 4: $p$-adic integers and Hensel's lemma </li>
 <ul>
 <li><a href="https://youtu.be/UeXG7FzaXro?si=n7KNYsncFwosXHSJ">Lecture 17</a>: p-adic absolute values</li>
 <li><a href="https://youtu.be/xXVOvpwzTB0?si=g6ezqPnjpiV6q7qT">Lecture 18</a>: Q as a topological field</li>
@@ -61,11 +61,11 @@
 </ul>
 <br />
 
-<li> Dedekind domains </li> 
-<li> Galois extensions </li> 
-<li> Class groups </li> 
-<li> Finiteness of Class groups  </li> 
-</ol>
+<li> Week 5: Dedekind domains </li> 
+<li> Week 6: Galois extensions </li> 
+<li> Week 7: Class groups </li> 
+<li> Week 8: Finiteness of Class groups  </li> 
+</ul>
 </p>
 
  
