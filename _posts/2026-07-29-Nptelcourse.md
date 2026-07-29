@@ -8,7 +8,7 @@ title: NPTEL course on Algebraic Number Theory
 
 <p>I am teaching an eight week <a href="https://nptel.ac.in/courses/111108003">NPTEL course</a> on Algebraic Number Theory, with a focus on the commutative algebraic aspects of it during the July-December 2026 semester. It is targeted at Master's students in India, interested in pursuing research in Number theory. It is titled <i>"Commutative Algebra with a viewpoint towards Algebraic Number Theory"</i> and is a deliberate nod to the title of David Eisenbud's <a href="https://link.springer.com/book/10.1007/978-1-4612-5350-1">book</a>. </p>
 
-<p>The lecture videos are uploaded on Youtube and can be found from the <a href="https://www.youtube.com/playlist?list=PLRRsDgzitzo4">YouTube playlist link</a>. Details about the course (including course notes, exam registration etc) can be found on the <a href="https://nptel.ac.in/courses/111108003">NPTEL link</a> and the <a href="https://onlinecourses.nptel.ac.in/e-learning/preview/noc26_ma142">Swayam link</a>. <br> 
+<p>The lecture videos are uploaded on Youtube and can be found as a <a href="https://www.youtube.com/playlist?list=PLRRsDgzitzo4">YouTube playlist</a>. Details about the course (including course notes, exam registration etc) can be found on the <a href="https://nptel.ac.in/courses/111108003">NPTEL link</a> and the <a href="https://onlinecourses.nptel.ac.in/e-learning/preview/noc26_ma142">Swayam link</a>. <br> 
 
 <p>The course TAs are <a href="https://sites.google.com/view/ravithejav/home">Ravitheja Vangala</a> and <a href="https://sites.google.com/view/sohan-ghosh/home">Sohan Ghosh</a>. </p>
 
