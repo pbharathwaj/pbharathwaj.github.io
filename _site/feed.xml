@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-08-16T21:34:29+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Bharathwaj Palvannan</title><subtitle>pbharathwaj.github.io.</subtitle><entry><title type="html">NPTEL course on Algebraic Number Theory</title><link href="http://localhost:4000/2026/07/29/Nptelcourse.html" rel="alternate" type="text/html" title="NPTEL course on Algebraic Number Theory" /><published>2026-07-29T00:00:00+05:30</published><updated>2026-07-29T00:00:00+05:30</updated><id>http://localhost:4000/2026/07/29/Nptelcourse</id><content type="html" xml:base="http://localhost:4000/2026/07/29/Nptelcourse.html"><![CDATA[<h1 id="nptel-course-on-algebraic-number-theory">NPTEL course on Algebraic Number Theory</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-08-16T21:52:51+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Bharathwaj Palvannan</title><subtitle>pbharathwaj.github.io.</subtitle><entry><title type="html">NPTEL course on Algebraic Number Theory</title><link href="http://localhost:4000/2026/07/29/Nptelcourse.html" rel="alternate" type="text/html" title="NPTEL course on Algebraic Number Theory" /><published>2026-07-29T00:00:00+05:30</published><updated>2026-07-29T00:00:00+05:30</updated><id>http://localhost:4000/2026/07/29/Nptelcourse</id><content type="html" xml:base="http://localhost:4000/2026/07/29/Nptelcourse.html"><![CDATA[<h1 id="nptel-course-on-algebraic-number-theory">NPTEL course on Algebraic Number Theory</h1>
 
 <p>I am teaching an eight week <a href="https://nptel.ac.in/courses/111108003">NPTEL course</a> on Algebraic Number Theory, with a focus on the commutative algebraic aspects of it during the July-December 2026 semester. It is targeted at Master's students in India, interested in pursuing research in Number theory. It is titled <i>"Commutative Algebra with a viewpoint towards Algebraic Number Theory"</i> and is a deliberate nod to the title of David Eisenbud's <a href="https://link.springer.com/book/10.1007/978-1-4612-5350-1">book</a>. </p>
 
@@ -86,13 +86,21 @@
 <li> Week 4: $p$-adic integers and Hensel's lemma </li>
 (Reference: Lang, Chapter II)
 <ul>
-<li><a href="https://youtu.be/UeXG7FzaXro?si=n7KNYsncFwosXHSJ">Lecture 17</a>: p-adic absolute values</li>
-<li><a href="https://youtu.be/xXVOvpwzTB0?si=g6ezqPnjpiV6q7qT">Lecture 18</a>: Q as a topological field</li>
-<li><a href="https://youtu.be/h7k29Ae6SGc?si=2UYhsVbUwwLbl9Wk">Lecture 19</a>: p-adic numbers </li>
-<li><a href="https://youtu.be/RDln9nO3UJ4?si=R7nDPqbrLXqwjWla">Lecture 20</a>: p-adic integers </li>
-<li><a href="https://youtu.be/ShFfOsRrxzw?si=dHoiuAgv1fjy54pM">Lecture 21</a>: p-adic integers as a completion </li>
-<li><a href="https://youtu.be/9JsWsA2gR6I?si=gL9oCxundhtmjfzX">Lecture 22</a>: p-adic expansions of p-adic integers</li>
-<li> <a href="https://youtu.be/mXjIDcpwJQM?si=stgzESIXa2pv1Ezn">Lecture 23</a>: Hensel's lemma</li>
+<br />
+
+<li><a href="https://youtu.be/UeXG7FzaXro?si=n7KNYsncFwosXHSJ">Lecture 17</a>: p-adic absolute values <br /> <p> Topics covered: Definition p-adic valuation and p-adic absolute value on localization of integers at p, Proving p-adic absolute value satisfies ultrametric inequality and the triangle inequality, Definition of p-adic metric, ℚ is metric space with respect to p-adic metric, p-adic metric on ℚ×ℚ</p> </li>
+
+<li><a href="https://youtu.be/xXVOvpwzTB0?si=g6ezqPnjpiV6q7qT">Lecture 18</a>: Q as a topological field <br /> <p> Topics covered: Recall of facts from topology regarding Cauchy sequences and Convergent sequences, Addition is a contiuous map on ℚ×ℚ, Definition of null sequence, p-adic absolute value stabilizes to a non-zero number in a non-null Cauchy/Convergent sequence, Inversion maps is conitinuos on non-zero rational, Multiplication map is continuous on  units in ℚ×ℚ </p> </li>
+
+<li><a href="https://youtu.be/h7k29Ae6SGc?si=2UYhsVbUwwLbl9Wk">Lecture 19</a>: p-adic numbers <br /> <p> Topics covered: Construction of p-adic numbers ℚp, Set of Cauchy sequences (C) in ℚ w.r.t.p-adic norm is a commutative ring, Extending p-adic absolute value to C, Set of null sequences (N) in ℚ w.r.t. p-adic absolute value is a maximal ideal of C</p> </li>
+
+<li><a href="https://youtu.be/RDln9nO3UJ4?si=R7nDPqbrLXqwjWla">Lecture 20</a>: p-adic integers <br /> <p> Topics covered:  ℚ is a subring of ℚp, Extending p-adic valuation to ℚp, Definition of p-adic integers ℤp, Maximal of p-adic integers is generated by p, p-adic numbers is complete w.r.t. p-adic absolute value.</p> </li>
+
+<li><a href="https://youtu.be/ShFfOsRrxzw?si=dHoiuAgv1fjy54pM">Lecture 21</a>: p-adic integers as a completion  <br /> <p> Topics covered: Showing that ℤp is completion of ℤ and ℤ(p) w.r.t. p-adic norm, that is, ℤp is the quotient of Cauchy Sequences in ℤ and  ℤ(p)  modulo the ideal of null sequences.</p></li>
+
+<li><a href="https://youtu.be/9JsWsA2gR6I?si=gL9oCxundhtmjfzX">Lecture 22</a>: p-adic expansions of p-adic integers <br /> <p> Topics covered: Recall of the construction of ℝ from ℚ, Explicit p-adic expansion of an element of  ℤp by finding an optimal Cauchy Sequence in  ℤ, Definition of p-adic expansion and p-adic digits, Residue field of p-adic integers is 𝔽p</p> </li>
+
+<li> <a href="https://youtu.be/mXjIDcpwJQM?si=stgzESIXa2pv1Ezn">Lecture 23</a>: Hensel's lemma</li> <br /><p> Topics covered: Recall of the construction of ℝ from ℚ, Explicit p-adic expansion of an element of  ℤp by finding an optimal Cauchy Sequence in  ℤ, Definition of p-adic expansion and p-adic digits, Residue field of p-adic integers is 𝔽p</p>
 </ul>
 <br />
 
