@@ -71,8 +71,10 @@ title: NPTEL course on Algebraic Number Theory
 <li> <a href="https://youtu.be/6xapBzXNbkA?si=ZEmtlauqpG8xbTek">Lecture 10</a>: V-rings are valuation rings <br> <p> Topics covered: Construction of a totally ordered abelian group associated to a V-ring, Construction of a valaution asscotiated to a V-ring, Proof that Valuation rings are V-rings </p> </li>
 
 <li> <a href="https://youtu.be/e9NslsB4PPM?si=t4Hlna7nWg8bFIVn">Lecture 11</a>: Maximal local rings inside fields <br><p> Topics covered: Definition of map of local rings, Definition of domination of local rings and maximal under domination inside a field, Valuation ring is maximal under domination, Ring maximal under domination inside a field is integrally closed. </p> </li>
-<li> <a href="https://youtu.be/NnccGt3taxk?si=PS02MoY3wIRTClEr">Lecture 12</a>: Maximal local rings and valuation rings </li>
-<li> <a href="https://youtu.be/2zujiZBpJDI?si=E-NIPm8y97psj8R3">Lecture 13</a>: Characterization of interally closed domains involving valuation rings </li>
+
+<li> <a href="https://youtu.be/NnccGt3taxk?si=PS02MoY3wIRTClEr">Lecture 12</a>: Maximal local rings and valuation rings <br><p> Topics covered: A local ring maximal under domination is a valuation ring.</p> </li>
+
+<li> <a href="https://youtu.be/2zujiZBpJDI?si=E-NIPm8y97psj8R3">Lecture 13</a>: Characterization of interally closed domains involving valuation rings <br> <p> Topics covered:  Equivalence of V-ring, V*-ring, Valuation ring and maximal local rings inside field of fractions, Existence of valuation ring dominating a local ring contained a field, An integrally closed domain is the intersection of valuation rings</p> </li>
 </ul>
 <br>
 
