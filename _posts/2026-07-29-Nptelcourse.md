@@ -58,13 +58,19 @@ title: NPTEL course on Algebraic Number Theory
 <br>
 
 <li> Week 2: Valuation Rings </li>
-(References: Atiyah--Macdonald, Chapter 5 and <a href="https://stacks.math.columbia.edu/tag/00I8">Stacks Project</a>)
-<ul>
-<li> <a href="https://youtu.be/_-8iY0od8oI?si=J1r9Q8JLsnodGuQV">Lecture 7</a>: Local rings and localizations</li>
-<li> <a href="https://youtu.be/_J8kSO1OU0Y?si=Lb0t1i4IRsI1O1fw">Lecture 8</a>: V-rings and V*-rings </li>
-<li> <a href="https://youtu.be/QXAiUvCuc2I?si=ceZXCyXnfmhF1rwk">Lecture 9</a>: Valuations and Valuation ring </li>
-<li> <a href="https://youtu.be/6xapBzXNbkA?si=ZEmtlauqpG8xbTek">Lecture 10</a>: V-rings are valuation rings </li>
-<li> <a href="https://youtu.be/e9NslsB4PPM?si=t4Hlna7nWg8bFIVn">Lecture 11</a>: Maximal local rings inside fields </li>
+(References: Atiyah--Macdonald, Chapter 5 and <a href="https://stacks.math.columbia.edu/tag/00I8">Stacks Project</a>) 
+
+<ul><br>
+<li> <a href="https://youtu.be/_-8iY0od8oI?si=J1r9Q8JLsnodGuQV">Lecture 7</a>: Local rings and localizations <br>
+<p> Topics covered: Definition of local ring, Definition of multiplicatively closed set, Definition of localization, Ideals in localization, Localization at a prime is local, Localization of a module, Localization of integral extension is integral, Localization of integral closure is again a integral closure </p> </li>
+
+<li> <a href="https://youtu.be/_J8kSO1OU0Y?si=Lb0t1i4IRsI1O1fw">Lecture 8</a>: V-rings and V*-rings <br> <p> Topics covered: Definition of local ring, Definition of multiplicatively closed set, Definition of localization, Ideals in localization, Localization at a prime is local, Localization of a module, Localization of integral extension is integral, Localization of integral closure is again a integral closure </p> </li>
+
+<li> <a href="https://youtu.be/QXAiUvCuc2I?si=ceZXCyXnfmhF1rwk">Lecture 9</a>: Valuations and Valuation ring <br> <p>Topics covered: Definition of a totally ordered abelian group, a totally ordered abelian group is torsion-free. Definition of valuation, ultramteric property, properties of valuation. Valuation ring is a subring of K, valuation ring is a V-ring </p> </li>
+
+<li> <a href="https://youtu.be/6xapBzXNbkA?si=ZEmtlauqpG8xbTek">Lecture 10</a>: V-rings are valuation rings <br> <p> Topics covered: Construction of a totally ordered abelian group associated to a V-ring, Construction of a valaution asscotiated to a V-ring, Proof that Valuation rings are V-rings </p> </li>
+
+<li> <a href="https://youtu.be/e9NslsB4PPM?si=t4Hlna7nWg8bFIVn">Lecture 11</a>: Maximal local rings inside fields <br><p> Topics covered: Definition of map of local rings, Definition of domination of local rings and maximal under domination inside a field, Valuation ring is maximal under domination, Ring maximal under domination inside a field is integrally closed. </p> </li>
 <li> <a href="https://youtu.be/NnccGt3taxk?si=PS02MoY3wIRTClEr">Lecture 12</a>: Maximal local rings and valuation rings </li>
 <li> <a href="https://youtu.be/2zujiZBpJDI?si=E-NIPm8y97psj8R3">Lecture 13</a>: Characterization of interally closed domains involving valuation rings </li>
 </ul>

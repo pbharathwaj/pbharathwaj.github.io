@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-08-16T21:26:55+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Bharathwaj Palvannan</title><subtitle>pbharathwaj.github.io.</subtitle><entry><title type="html">NPTEL course on Algebraic Number Theory</title><link href="http://localhost:4000/2026/07/29/Nptelcourse.html" rel="alternate" type="text/html" title="NPTEL course on Algebraic Number Theory" /><published>2026-07-29T00:00:00+05:30</published><updated>2026-07-29T00:00:00+05:30</updated><id>http://localhost:4000/2026/07/29/Nptelcourse</id><content type="html" xml:base="http://localhost:4000/2026/07/29/Nptelcourse.html"><![CDATA[<h1 id="nptel-course-on-algebraic-number-theory">NPTEL course on Algebraic Number Theory</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-08-16T21:31:04+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Bharathwaj Palvannan</title><subtitle>pbharathwaj.github.io.</subtitle><entry><title type="html">NPTEL course on Algebraic Number Theory</title><link href="http://localhost:4000/2026/07/29/Nptelcourse.html" rel="alternate" type="text/html" title="NPTEL course on Algebraic Number Theory" /><published>2026-07-29T00:00:00+05:30</published><updated>2026-07-29T00:00:00+05:30</updated><id>http://localhost:4000/2026/07/29/Nptelcourse</id><content type="html" xml:base="http://localhost:4000/2026/07/29/Nptelcourse.html"><![CDATA[<h1 id="nptel-course-on-algebraic-number-theory">NPTEL course on Algebraic Number Theory</h1>
 
 <p>I am teaching an eight week <a href="https://nptel.ac.in/courses/111108003">NPTEL course</a> on Algebraic Number Theory, with a focus on the commutative algebraic aspects of it during the July-December 2026 semester. It is targeted at Master's students in India, interested in pursuing research in Number theory. It is titled <i>"Commutative Algebra with a viewpoint towards Algebraic Number Theory"</i> and is a deliberate nod to the title of David Eisenbud's <a href="https://link.springer.com/book/10.1007/978-1-4612-5350-1">book</a>. </p>
 
@@ -52,13 +52,19 @@
 <br />
 
 <li> Week 2: Valuation Rings </li>
-(References: Atiyah--Macdonald, Chapter 5 and <a href="https://stacks.math.columbia.edu/tag/00I8">Stacks Project</a>)
-<ul>
-<li> <a href="https://youtu.be/_-8iY0od8oI?si=J1r9Q8JLsnodGuQV">Lecture 7</a>: Local rings and localizations</li>
-<li> <a href="https://youtu.be/_J8kSO1OU0Y?si=Lb0t1i4IRsI1O1fw">Lecture 8</a>: V-rings and V*-rings </li>
-<li> <a href="https://youtu.be/QXAiUvCuc2I?si=ceZXCyXnfmhF1rwk">Lecture 9</a>: Valuations and Valuation ring </li>
-<li> <a href="https://youtu.be/6xapBzXNbkA?si=ZEmtlauqpG8xbTek">Lecture 10</a>: V-rings are valuation rings </li>
-<li> <a href="https://youtu.be/e9NslsB4PPM?si=t4Hlna7nWg8bFIVn">Lecture 11</a>: Maximal local rings inside fields </li>
+(References: Atiyah--Macdonald, Chapter 5 and <a href="https://stacks.math.columbia.edu/tag/00I8">Stacks Project</a>) 
+
+<ul><br />
+<li> <a href="https://youtu.be/_-8iY0od8oI?si=J1r9Q8JLsnodGuQV">Lecture 7</a>: Local rings and localizations <br />
+<p> Topics covered: Definition of local ring, Definition of multiplicatively closed set, Definition of localization, Ideals in localization, Localization at a prime is local, Localization of a module, Localization of integral extension is integral, Localization of integral closure is again a integral closure </p> </li>
+
+<li> <a href="https://youtu.be/_J8kSO1OU0Y?si=Lb0t1i4IRsI1O1fw">Lecture 8</a>: V-rings and V*-rings <br /> <p> Topics covered: Definition of local ring, Definition of multiplicatively closed set, Definition of localization, Ideals in localization, Localization at a prime is local, Localization of a module, Localization of integral extension is integral, Localization of integral closure is again a integral closure </p> </li>
+
+<li> <a href="https://youtu.be/QXAiUvCuc2I?si=ceZXCyXnfmhF1rwk">Lecture 9</a>: Valuations and Valuation ring <br /> <p>Topics covered: Definition of a totally ordered abelian group, a totally ordered abelian group is torsion-free. Definition of valuation, ultramteric property, properties of valuation. Valuation ring is a subring of K, valuation ring is a V-ring </p> </li>
+
+<li> <a href="https://youtu.be/6xapBzXNbkA?si=ZEmtlauqpG8xbTek">Lecture 10</a>: V-rings are valuation rings <br /> <p> Topics covered: Construction of a totally ordered abelian group associated to a V-ring, Construction of a valaution asscotiated to a V-ring, Proof that Valuation rings are V-rings </p> </li>
+
+<li> <a href="https://youtu.be/e9NslsB4PPM?si=t4Hlna7nWg8bFIVn">Lecture 11</a>: Maximal local rings inside fields <br /><p> Topics covered: Definition of map of local rings, Definition of domination of local rings and maximal under domination inside a field, Valuation ring is maximal under domination, Ring maximal under domination inside a field is integrally closed. </p> </li>
 <li> <a href="https://youtu.be/NnccGt3taxk?si=PS02MoY3wIRTClEr">Lecture 12</a>: Maximal local rings and valuation rings </li>
 <li> <a href="https://youtu.be/2zujiZBpJDI?si=E-NIPm8y97psj8R3">Lecture 13</a>: Characterization of interally closed domains involving valuation rings </li>
 </ul>
