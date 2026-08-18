@@ -128,6 +128,28 @@ title: NPTEL course on Algebraic Number Theory
 <li> Week 6: Galois extensions </li> 
 (Reference: Lang Chapter I)
 <br><br>
+
+<ul>
+<li> Lecture 27: Galois extensions <br>
+<p> Topics covered: Definition of a normal extension, Definition and examples of Galois extensions, Galois group,  Prime ideals lying above a given prime and their characterization via ideal factorization,  Action of the Galois group on the integral closure and  prime ideals,  Finiteness of prime ideals lying above a fixed prime,  Chinese Remainder Theorem,   Transitive action of the Galois group on the set of prime ideals lying above a fixed prime. </p>
+</li>
+
+<li> Lecture 28: Decomposition Groups <br>
+<p> Topics covered: Decomposition groups of prime ideals in finite Galois extensions, Characterization of decomposition fields via splitting of prime ideals, Minimality property of the decomposition field (fixed field of decomposition group),  Proof that the induced map on residue fields is an isomorphism when the intermediate field is the decomposition field of β </p></li>
+
+<li> Lecture 29: Ramification indices and residue field degrees <br>
+<p> Topics coverd: Ramification indices and residue field degrees, Equality of ramification indices and residue field degrees of primes lying above a fixed prime, Normality of residue field extensions, Galois action on residue fields, Natural surjective homomorphism from the decomposition group to the Galois group of the residue field extension, Definition of the inertia group.</p>
+</li>
+
+<li> Lecture 30: efg theorem <br>
+<p> Topics covered: The (efg)-theorem for finite separable extensions of Dedekind domains, Trick of localization, Localization of Dedekind domains and preservation of ramification indices and residue field degrees, Proof of the (efg)-theorem using localization and the Chinese Remainder Theorem.</p>  </li>
+
+<li> Lecture 31: Inertia group <br>
+<p> Topics covered: Relationship between the decomposition group, inertia group, and ramification index, Computation of the order of the decomposition and inertia groups, Decomposition of the residue field degree into separable and inseparable parts, Characterisation of the inertia group via residue field extensions, Construction of the maximal unramified subextension, Proof that the fixed field of the inertia group is an unramified extension of the decomposition field </p></li>
+
+</ul>
+
+
  
 <li> Week 7: Class groups <br> 
 (Reference: <a href="https://plclark.github.io/">Pete Clark's</a> <a href="https://plclark.github.io/PeteLClark/Expositions/integral2015.pdf">notes</a>)
