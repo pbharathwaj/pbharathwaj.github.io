@@ -114,13 +114,13 @@ title: NPTEL course on Algebraic Number Theory
 (References: Lang Chapter I, Cassels--Fröhlich Chapter 1, Atiyah--Macdonald Chapter 9)  <br> <br>
 
 <ul> 
-<li> Lecture 24: Dedekind Domains <br> 
+<li> <a href="https://youtu.be/DDpxYwQOmQo?si=0HMV0WU3zSytHHIr">Lecture 24</a>: Dedekind Domains <br> 
 <p>Topics covered: Definition of a fractional ideal, Product of two fractional ideals is fractional, Definition of a invertible fractional ideal, Definition of inverse of a fractional ideal, Inverse of a fractional ideal is an A-module, Definition of a Dedekind Domain, Every ideal of a Dedekind domain contains a product of non-zero prime ideals, Every non-zero maximal ideal of a Dedekind domain is invertible.</p> </li>
 
-<li> Lecture 25: Unique Factorisation of Ideals in Dedekind Domains  <br>
+<li> <a href="https://youtu.be/0w27ahdx_Q0?si=aS5K-CziUjYW-aKI">Lecture 25</a>: Unique Factorisation of Ideals in Dedekind Domains  <br>
 <p> Topics covered: Every non-zero ideal of a Dedekind Domain is invertible, Every non-zero fractional ideal of a Dedekind Domain is a product of prime ideals, Definition of Class group </p></li>
 
-<li> Lecture 26: Ring of Integers are Dedekind Domains <br> 
+<li> <a href="https://youtu.be/wplkVUY_j3E?si=k9tzifp0i5_4MEVX">Lecture 26</a>: Ring of Integers are Dedekind Domains <br> 
 <p> Topics covered: Strengthening of lying above theorem, Ring of integers in a finite extension of ℚ is a Dedekind Domain, Ring of integers of finite extension in a Function field is a Dedekind Domain, Structure theorem for f.g. modules over Dedekind Domains,   Invariant factor form and elementary fator form for f.g. torsion modules over Dedekind Domains </p> </li>
 
 </ul>

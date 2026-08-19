@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-08-18T11:00:34+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Bharathwaj Palvannan</title><subtitle>pbharathwaj.github.io.</subtitle><entry><title type="html">NPTEL course on Algebraic Number Theory</title><link href="http://localhost:4000/2026/07/29/Nptelcourse.html" rel="alternate" type="text/html" title="NPTEL course on Algebraic Number Theory" /><published>2026-07-29T00:00:00+05:30</published><updated>2026-07-29T00:00:00+05:30</updated><id>http://localhost:4000/2026/07/29/Nptelcourse</id><content type="html" xml:base="http://localhost:4000/2026/07/29/Nptelcourse.html"><![CDATA[<h1 id="nptel-course-on-algebraic-number-theory">NPTEL course on Algebraic Number Theory</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-08-19T10:40:07+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Bharathwaj Palvannan</title><subtitle>pbharathwaj.github.io.</subtitle><entry><title type="html">NPTEL course on Algebraic Number Theory</title><link href="http://localhost:4000/2026/07/29/Nptelcourse.html" rel="alternate" type="text/html" title="NPTEL course on Algebraic Number Theory" /><published>2026-07-29T00:00:00+05:30</published><updated>2026-07-29T00:00:00+05:30</updated><id>http://localhost:4000/2026/07/29/Nptelcourse</id><content type="html" xml:base="http://localhost:4000/2026/07/29/Nptelcourse.html"><![CDATA[<h1 id="nptel-course-on-algebraic-number-theory">NPTEL course on Algebraic Number Theory</h1>
 
 <p>I am teaching an eight week <a href="https://nptel.ac.in/courses/111108003">NPTEL course</a> on Algebraic Number Theory, with a focus on the commutative algebraic aspects of it during the July-December 2026 semester. It is targeted at Master's students in India, interested in pursuing research in Number theory. It is titled <i>"Commutative Algebra with a viewpoint towards Algebraic Number Theory"</i> and is a deliberate nod to the title of David Eisenbud's <a href="https://link.springer.com/book/10.1007/978-1-4612-5350-1">book</a>. </p>
 
@@ -108,13 +108,13 @@
 (References: Lang Chapter I, Cassels--Fröhlich Chapter 1, Atiyah--Macdonald Chapter 9)  <br /> <br />
 
 <ul> 
-<li> Lecture 24: Dedekind Domains <br /> 
+<li> <a href="https://youtu.be/DDpxYwQOmQo?si=0HMV0WU3zSytHHIr">Lecture 24</a>: Dedekind Domains <br /> 
 <p>Topics covered: Definition of a fractional ideal, Product of two fractional ideals is fractional, Definition of a invertible fractional ideal, Definition of inverse of a fractional ideal, Inverse of a fractional ideal is an A-module, Definition of a Dedekind Domain, Every ideal of a Dedekind domain contains a product of non-zero prime ideals, Every non-zero maximal ideal of a Dedekind domain is invertible.</p> </li>
 
-<li> Lecture 25: Unique Factorisation of Ideals in Dedekind Domains  <br />
+<li> <a href="https://youtu.be/0w27ahdx_Q0?si=aS5K-CziUjYW-aKI">Lecture 25</a>: Unique Factorisation of Ideals in Dedekind Domains  <br />
 <p> Topics covered: Every non-zero ideal of a Dedekind Domain is invertible, Every non-zero fractional ideal of a Dedekind Domain is a product of prime ideals, Definition of Class group </p></li>
 
-<li> Lecture 26: Ring of Integers are Dedekind Domains <br /> 
+<li> <a href="https://youtu.be/wplkVUY_j3E?si=k9tzifp0i5_4MEVX">Lecture 26</a>: Ring of Integers are Dedekind Domains <br /> 
 <p> Topics covered: Strengthening of lying above theorem, Ring of integers in a finite extension of ℚ is a Dedekind Domain, Ring of integers of finite extension in a Function field is a Dedekind Domain, Structure theorem for f.g. modules over Dedekind Domains,   Invariant factor form and elementary fator form for f.g. torsion modules over Dedekind Domains </p> </li>
 
 </ul>
