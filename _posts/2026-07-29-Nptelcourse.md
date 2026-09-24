@@ -156,9 +156,10 @@ title: NPTEL course on Algebraic Number Theory
  </li> <br>
 
 <ul> 
-<li> Lecture 32: Class groups <br>
+<li> <a href="https://youtu.be/qfMjngFE1AY?si=CEpFCaFpEDB72QzO">Lecture 32</a>: Class groups <br>
 <p> Topics covered: Picard groups and their relationship with the ideal class group of a Dedekind domain, Invertible modules and invertible fractional ideals, Rank one projective modules, Equivalent characterisation of Projective modules, Equivalence between invertible modules, rank one projective modules, and invertible fractional ideals, Dual basis characterisation of finitely generated projective modules, Equivalence between projective modules and modules admitting a dual basis. </p></li>
-<li> Lecture 33: Equivalent characterisation of invertible fractional ideals <br>
+
+<li> <a href="https://www.youtube.com/watch?v=uXYrI04c2AU&list=PLRRsDgzitzo4&index=6">Lecture 33</a>: Equivalent characterisation of invertible fractional ideals <br>
 <p> Topics covered: Proof of the equivalence between invertible modules and invertible fractional ideals, Proof that invertible modules are rank-one projective modules, Proof that rank-one projective modules are isomorphic to invertible fractional ideals. 
 </p> </li>
 </ul>
@@ -168,16 +169,16 @@ title: NPTEL course on Algebraic Number Theory
 <br><br>
  
 <ul>
-<li> Lecture 34: Basic PID <br> 
+<li> <a href="https://youtu.be/8pUbi1bJkgQ?si=QaD_DB8mmTgg3AVT">Lecture 34</a>: Basic PID <br> 
 <p> Topics covered: Finiteness of a norm of an ideal in Global field setting,  Definition of basic PID,  ℤ and 𝔽p[t] are basic PID. </p> </li>
 
-<li> Lecture 35: Norm Estimates <br> 
+<li> <a href="https://youtu.be/W7LdiNavyMI?si=kv6r-hcmrZemz4vh">Lecture 35</a>: Norm Estimates <br> 
 <p> Topics covered: Norm of a principal ideal is same as the field norm, Norm of every element is evaluation of a homogeneous fixed polynomial. </p> </li>
 
-<li> Lecture 36: Finiteness of Class group I <br>
+<li> <a href="https://youtu.be/q1ieYlXEmT0?si=XID90wF6JHz5mCfF">Lecture 36</a>: Finiteness of Class group I <br>
 <p> Topics covered: Every non-zero ideal I of a Dedekind Domain  contains an element with field norm less than C Norm(I) for some fixed constant depending only on the field.</p> </li>
 
-<li> Lecture 37: Finiteness of Class group II <br>
+<li> <a href="https://youtu.be/rloezzEq_hI?si=hrJrehSGLOjsj-CX">Lecture 37</a>: Finiteness of Class group II <br>
 <p> Topics covered: There exists finitely many ideals of bounded norm, Completing the proof of finiteness of class group </p> </li>
 </ul>
 
